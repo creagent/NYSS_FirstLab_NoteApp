@@ -6,6 +6,8 @@ namespace NoteApp
     /*
      * This class provides correct input and editing for any fields/values used in this app. 
      * Input won't stop until it is correct. Main functional is an overloaded TryEnter method.
+     * While creating empty string means skipping not required fields. While editing space means 
+     * to leave the current value and empty string means clearing the field (if it's not required).
      */
     public static class Enter
     {
